@@ -6,25 +6,30 @@ log-level: info
 proxies:
 - name: 🇨🇾 CY 01 - xiaohe
   type: vless
-  server: 132.243.238.192
-  port: 8443
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shephe.dpdns.org
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 02 - xiaohe
+  type: vless
+  server: 194.55.166.65
+  port: 2087
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.cndyw.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: pyip=bpb.yousef.isegaro.comfp=random
     headers:
-      Host: shephe.dpdns.org
-- name: 🇨🇾 CY 02 - xiaohe
-  type: ss
-  server: 132.243.255.3
-  port: 20999
-  cipher: aes-256-gcm
-  password: 78235e7dc55e9ad1
-  udp: true
+      Host: free.cndyw.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
