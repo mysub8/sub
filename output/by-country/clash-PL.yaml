@@ -15,22 +15,22 @@ proxies:
   servername: 2.26.6.1
 - name: 🇵🇱 PL 02 - xiaohe
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: 179.253.179.109
+  port: 57043
+  uuid: da8fab8e-4a25-4eb0-b224-88ab96c753ce
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.6.1
+  servername: 87.121.86.24
 - name: 🇵🇱 PL 03 - xiaohe
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: 179.253.179.109
+  port: 63053
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.6.1
+  servername: de2.derevohom.xyz
 proxy-groups:
 - name: PROXIES
   type: select
